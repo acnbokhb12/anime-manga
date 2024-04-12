@@ -1,0 +1,406 @@
+/* @media screen and (max-width : 1024px){
+    
+} */
+/* mobile */
+/* @media only screen and (max-width:739px) {
+    
+} */
+/* tapble */
+/* @media only screen and (min-width: 740px) and (max-width:1023px){
+    
+} */
+/* pc */
+/* @media only screen and (min-width: 1024px) {
+    
+} */
+.clear{
+    clear: both;
+}
+/* ipad */
+@media only screen and (min-width:375px) and (max-width:767px){
+    #manage{
+        /* display: block; */
+    }
+    #manage #task-column{
+        display: none;
+    }
+    /* header */
+    #header{
+        margin-left: 0;
+       
+    }
+    #header .header-contain {
+        /* width: 80%;
+        margin-left: 0; */
+    }
+    #header .tick-sign {
+        margin-right: 10px;
+    }
+    #header .search{
+        display: none;
+    }
+    .header-contain .event{
+        display: none;
+    }
+    .header-contain .forum{
+        display: none;
+    }
+    .header-contain .horizonetal{
+        display: none;
+    }
+    #header .list-connect{  
+        display: none;
+    }
+    /* slider */
+    #slider{
+        margin-left: 0;
+        display: inline-block;
+        height: 360px;
+        width: 100%;
+    }
+    #place-introduce .subtitle,
+    #slider .subtitle{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        /* transform: translateX(-12px); */
+        width: 100%;
+    }
+    #slider .slider-container{
+        height: 60%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .recommended{
+        width: 100%;
+        margin-left: 0;
+    }
+    /* Recommended */
+    .recommended {
+        height: 106vh;
+    }
+    #place-introduce{
+        display: grid;
+        grid-template-columns:320px ;
+        grid-template-rows: 50px 600px;
+    }
+    #place-introduce .place-list-introduct{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(5, 120px); 
+        /* flex-direction: column;*/
+    }
+     .place-list-introduct .place-item {
+        display: grid;
+        grid-template-columns: 190px 100px; 
+        
+        margin: 50px 0 10px;
+    }
+    .place-body{
+        grid-column-start: 2;
+    }
+    .place-list-introduct .place-item .place-contain-img-recommended{
+        width: 300px;
+    }
+
+    .place-list-introduct img{
+        height: 120px;
+        min-width: 200px;
+    object-position: center 20%;
+       
+        /* margin-bottom: 10px; */
+        border-bottom-left-radius:  10px; ;
+    }
+    .place-list-introduct .place-body{
+        width: 110px;
+        margin-left: 20px;
+        font-size: 10px;
+    
+        /* margin-bottom: 10px; */
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: none;
+        border-bottom-left-radius: none;
+    }
+    /* Content */
+    #content{
+        /* display: flex; */
+        margin-left: 0;
+        height: 2400px;
+    }
+    #content .content-container {
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        /* background-color: none; */
+        /* grid-template-rows: 45% 45%; */
+    }
+    #content .subtitle {
+        width: 100%;
+    }
+    .content-container .horizone-news {
+        display: none;
+        /* height: 10px;
+        width: 70%;
+        background-color: #000; */
+    }
+    .content-container .new-s-anime ,
+    .content-container .new-f-anime {
+        width: 95%;
+        height: 50%;
+        /* display: block; */
+        display: flex;
+        flex-direction: column;
+        /* position: relative; */
+        justify-content: space-evenly;    
+    }
+    .new-s-anime .news-titem .img-news,
+     .new-f-anime .news-titem .img-news {
+        margin-bottom: 20px;
+    }
+    .content-container .new-f-anime{
+        
+    }
+
+    .content-container .new-s-anime {
+        transform: translateY(-1%);
+    }
+
+    .new-s-anime .news-titem, .new-f-anime .news-titem {
+        /* display: block; */
+        padding: 8px 15px;
+        display: flex;
+        flex-direction: column;
+        /* position: absolute; */
+    }
+    /* top rank season */
+    #rank-season{
+        margin-left: 0;
+    }
+    #rank-season .subtitle {
+        width: 100%;
+    }
+    .rank-season-container {
+        width: 90%;
+    }
+    .contain-infor-rank {
+        display: block;
+    }
+    .heading-top-rank .heading-second .span-second ,
+    .heading-top-rank .heading-first .span-first {
+        font-size: 16px;
+    }
+    .sub-section-season {
+        width: 90%;
+        height: auto;
+        align-items: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .sub-section-season .img-sub-section img {
+        height: auto;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    /* header */
+    #header  .search{
+            display: none;
+    }
+    #header  .tick-sign{
+        margin-right: 22px;
+    }
+    #header .list-connect{
+           margin-right: 18px; 
+       
+    }
+    .header-contain .horizonetal{
+        margin-right: 13px;
+    }
+    /* slider */
+    #slider{
+        margin-left: 60px;
+        height: 360px;
+        display: block;
+    }
+    #slider .subtitle{
+        transform: translateY(20px);
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    #slider .slider-container{
+        height: 60%;
+        width: 70%;
+        margin-left: 50%;
+        /* transform: translateY(20%); */
+        transform: translateX(-55%);
+        display: inline-block;
+    }
+    /* Recommended */
+    #place-introduce{
+        /* display: flex; */
+        /* height: 800px; */
+    }
+    /* #place-introduce .place-list-introduct {
+        display: flex;
+        flex-direction: column;
+    }
+    #place-introduce .place-list-introduct .place-item{
+        display: flex;
+    }*/
+    .place-list-introduct img{
+        width: 90%;
+        height: 200px;
+    } 
+    .place-list-introduct .place-body{
+        height: 200px;
+        width: 90%;
+
+    }
+    /* news */
+    #content{
+        height: 1310px;
+    }
+    #content .content-container{
+        height: 93%;
+    }
+    .new-f-anime .news-titem,
+    .new-s-anime .news-titem {
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px 16px;
+        margin-top: 12px;
+        
+    } 
+    .new-s-anime .news-titem .img-news,
+    .new-f-anime .news-titem .img-news{
+        width: 80%;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+    /* rank top season */
+    #rank-season .heading-section .heading-top-rank .heading-first span{
+        font-size: 20px;
+    }
+    .season-section .score-percent span {
+        font-size: 10px;
+    }
+    .rank-season-container{
+        height: 930px;
+    }
+    .sub-section-season {
+        height: 420px;
+    }
+}
+/* ipad pro */
+@media only screen and (min-width:1024px) and (max-width:1356px){
+    /* task column */
+    
+    #manage #task-column{
+        height: 660px;
+        
+    }
+    #task-column .user-btn{
+        top: 436px;
+    }
+    /* header */
+    #header {
+        /* width: ; */
+        width: calc(100vw-60px);
+    }
+    #header .search{
+        right: 420px;
+    }
+    #header .search .search-info{
+    width: 240px;
+    }
+.header-contain .event{
+        right: 316px;
+    }
+    .header-contain .forum{
+        right: 250px;
+    }
+    #header  .tick-sign{
+        margin-right: 20px;
+
+    }
+    /* Slider */
+    #slider .slider-container{
+        /* max-width: 76vw; */
+        height: 74%;
+    }
+    /* recomemded */
+    .place-list-introduct img{
+        width: 80%;
+    }
+    .place-list-introduct .place-body{
+        width: 80%;
+        font-size: 12px;
+        padding: 10px;
+        height: 100px;
+    }
+    
+    .place-list-introduct .place-heading{
+        margin-bottom: 6px;
+    }
+    /* News in content */
+    #content{
+        height: 1190px;
+    }
+    #content .content-container{
+        height: 93%;
+    }
+    .new-f-anime .news-titem,
+    .new-s-anime .news-titem {
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px 16px;
+        margin-top: 12px;
+        
+    } 
+    .new-s-anime .news-titem .img-news,
+    .new-f-anime .news-titem .img-news{
+        width: 70%;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+    /* season top rank */
+    .contain-infor-rank{
+        /* display: block; */
+        display: flex;
+    }
+    .rank-season-container{
+        width: 60%;
+        height: 90%px;
+    }
+    /* number kank */
+    .season-section .anime-item .rank-th{
+        width: 12%;
+    } 
+    /* img rank */
+    .season-section .anime-item .anime-img-top{
+        width: 70%;
+    }
+    .anime-item .anime-img-top img{
+        width: 100%;
+    }
+    /* name rank */
+    
+    .season-section .score-percent{
+        width: 18%;
+    
+    }
+    .season-section .score-percent .name-section{
+        text-align: center;
+    }
+
+    .sub-section-season{
+        
+    }
+    .sub-section-season {
+        height: 500px;
+        /* height: auto; */
+        /* margin-left: 50%; */
+        /* transform: translateX(-50%); */
+        
+    }
+
+}
