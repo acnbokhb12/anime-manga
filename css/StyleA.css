@@ -316,7 +316,7 @@ html{
     /* max-width: 80vw; */
     height:80%;
     border-radius: 12px;
-    background: url(/Anime/img/slider/shadow.jpg) no-repeat;
+    background: url(https://cdn.gamerbraves.com/2023/05/Eminence-2.png) no-repeat;
     background-size: 100% 100%;
     /* order: 1; */
     margin-top: 20px;
@@ -840,19 +840,19 @@ html{
 /* scroll slider */
 @keyframes change {
     0% {
-        background-image: url('/Anime/img/slider/shadow.jpg');
+        background-image: url(https://cdn.gamerbraves.com/2023/05/Eminence-2.png);
     }
     25%{
-        background-image:url('/Anime/img/slider/blackclover.jpg') ;
+        background-image:url(https://bclover.jp/images/ogp6.png) ;
     }
     50%{
-        background-image:url('/Anime/img/slider/aryaRusia.jpg') ;
+        background-image:url(https://www.hindustantimes.com/ht-img/img/2023/03/18/1600x900/anime_russian_1679116212924_1679116222176_1679116222176.png) ;
     }
     75%{
-        background-image: url('/Anime/img/slider/eightsix.jpg');
+        background-image: url(https://www.acgndog.com/wp-content/uploads/2023/12/8aac9fe9fbe09cecfb5566bc08bddefc-2.jpg);
     }
     100% {
-    background-image: url('/Anime/img/slider/friendWizard.png');
+    background-image: url(https://frieren-anime-ten.jp/assets/images/home/main-visual.jpg);
     }
 }
 
