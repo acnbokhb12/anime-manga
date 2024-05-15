@@ -289,6 +289,12 @@
     .sub-section-season {
         height: 420px;
     }
+    /* summon */
+    #summon{
+        display: flex;
+    justify-content: center;
+    object-position: right 10%;
+    }
 }
 /* ipad pro */
 @media only screen and (min-width:1024px) and (max-width:1356px){
@@ -304,7 +310,7 @@
     /* header */
     #header {
         /* width: ; */
-        width: calc(100vw-60px);
+        width: 100%;
     }
     #header .search{
         right: 420px;
@@ -402,5 +408,9 @@
         /* transform: translateX(-50%); */
         
     }
-
+    /* summon */
+    #summon{
+        display: flex;
+    justify-content: center;
+    }
 }

@@ -9,6 +9,7 @@ html{
 }
 .clear{
     clear: both;
+    
 }
 /* taskbar */
 #manage{
@@ -103,7 +104,8 @@ html{
 }
 /* header */
  #header{
-    width: calc(100% -60px);
+    width: calc(100vw - 60px);
+    /* margin-left: 60px; */
     height: 60px;
     background-color: #fff;
     position: fixed;
